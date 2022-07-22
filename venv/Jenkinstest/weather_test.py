@@ -5,7 +5,7 @@ from Lib.httpClient import HttpClient
 
 class Weather(unittest.TestCase):
     def setUp(self) :
-        #忽略警告
+        #忽略警告!
         warnings.simplefilter("ignore", ResourceWarning)
         super().setUp()
         self.host = 'http://www.weather.com.cn'
